@@ -1,6 +1,6 @@
 /**
- * Author: 
- * Date: 
+ * Author:ARYAN KHAN 
+ * Date: 10/22/2023
  *
  * This program generates a multiplication table
  * of the size given as a command line argument.
