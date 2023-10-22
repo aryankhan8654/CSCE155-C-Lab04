@@ -26,20 +26,19 @@ int main(int argc, char **argv) {
 
   //1. Rewrite the given for loop as an equivalent while loop
   int i = 10;
-while (i < 20) {
+  while (i < 20)
+  {
     printf("%d ", i);
     i += 3;
+  }
+  printf("\n");
+
+  //2. Rewrite the given while loop as an equivalent for loop
+  for (int k = 3; k > -4; k--) {
+    printf("%d ", k);
 }
 printf("\n");
 
-
-  //2. Rewrite the given while loop as an equivalent for loop
-  int k = 3;
-  while(k > -4) {
-    printf("%d ", k);
-    k--;
-  }
-  printf("\n");
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
