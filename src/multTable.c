@@ -23,6 +23,8 @@ int main(int argc, char **argv) {
 
   //TODO: place your code here
   for (int i = 1; i <= n; i++)
-  
-    return 0;
-}
+  {
+    for (int j = 1; j <= n; j++)
+    
+      return 0;
+  }
