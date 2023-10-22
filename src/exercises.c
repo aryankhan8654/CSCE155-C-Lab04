@@ -66,10 +66,23 @@ int main(int argc, char **argv) {
       {
         printf("%d, ", square);
       }
+    }
 
       // 5. Compute the summation of numbers 1 thru n and print
       //    the result; example: 1 + 2 + 3 + 4 + 5 = 15
-
+    int sum = 0;
+    for (int j = 1; j <= n; j++)
+    {
+      sum += j;
+      if (j == n)
+      {
+        printf("= %d\n", sum);
+      }
+      else
+      {
+        printf("%d + ", j);
+      }
+    }
       // 6. Compute the summation of squares of numbers 1 thru n
       //    and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 
