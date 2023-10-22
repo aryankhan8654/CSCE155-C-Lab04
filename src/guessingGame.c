@@ -40,6 +40,10 @@ int main(int argc, char **argv) {
     {
       printf("Invalid guess. Enter a number between 1 and %d.\n", n);
     }
+    else if (guess < number)
+    {
+      printf("Higher! Try again.\n");
+    }
     
     printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
     return 0;
