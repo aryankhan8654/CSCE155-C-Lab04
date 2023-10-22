@@ -42,25 +42,35 @@ int main(int argc, char **argv) {
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
+  for (int j = 1; j <= n; j++)
+  {
+    if (j == n)
+    {
+      printf("%d\n", j);
+    }
+    else
+    {
+      printf("%d, ", j);
+    }
 
-  //4. Print squares of numbers 1 thru n separated by a comma
-  //   except for the last one; example: 1, 4, 9, 16, 25
+    // 4. Print squares of numbers 1 thru n separated by a comma
+    //    except for the last one; example: 1, 4, 9, 16, 25
 
-  //5. Compute the summation of numbers 1 thru n and print
-  //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
+    // 5. Compute the summation of numbers 1 thru n and print
+    //    the result; example: 1 + 2 + 3 + 4 + 5 = 15
 
-  //6. Compute the summation of squares of numbers 1 thru n
-  //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
+    // 6. Compute the summation of squares of numbers 1 thru n
+    //    and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 
-  //7. Compute the summation of even numbers 1 thru n and print
-  //   the result; example (n=5): 2 + 4 = 6
+    // 7. Compute the summation of even numbers 1 thru n and print
+    //    the result; example (n=5): 2 + 4 = 6
 
-  //8. Write a solution to the following variation of the FizzBuzz
-  //   problem.  Print out integers 1 thru n, one to a line, except
-  //   that if the integer is divisible by 7 print "Foo" instead.
-  //   If the integer is divisible by 11 print "Bar" instead.  If
-  //   the integer is divisible by both 7 and 11, print "FooBar"
-  //   instead.
+    // 8. Write a solution to the following variation of the FizzBuzz
+    //    problem.  Print out integers 1 thru n, one to a line, except
+    //    that if the integer is divisible by 7 print "Foo" instead.
+    //    If the integer is divisible by 11 print "Bar" instead.  If
+    //    the integer is divisible by both 7 and 11, print "FooBar"
+    //    instead.
 
-  return 0;
-}
+    return 0;
+  }
