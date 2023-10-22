@@ -44,7 +44,11 @@ int main(int argc, char **argv) {
     {
       printf("Higher! Try again.\n");
     }
-    
+    else if (guess > number)
+    {
+      printf("Lower! Try again.\n");
+    }
+  }
     printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
     return 0;
   }
